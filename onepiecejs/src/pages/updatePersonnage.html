@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Personnage</title>
+    <link rel="stylesheet" href="../assets/style/main.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar"></nav>
+        <h1 class="add-update-h1">Modifier un personnage</h1>
+    </header>
+
+
+    <form id="update_form">
+        <div id="form_container">
+            <label for="image">Lien de l'image</label></br>
+            <input id="image" class="up_image" type="text" placeholder="http://exemple.com" />
+            </br>
+            <label for="nom">Nom</label></br>
+            <input id="nom" class="up_nom" type="text" placeholder="Newgate" />
+            </br>
+            <label for="prenom">Prénom</label></br>
+            <input id="prenom" class="up_prenom" type="text" placeholder="Edward" />
+            </br>
+            <label for="alias">Alias</label></br>
+            <input id="alias" class="up_alias" type="text" placeholder="Barbe Blanche" />
+            </br>
+            <label for="age">Age</label></br>
+            <input id="age" class="up_age" type="number" placeholder="72" />
+            </br>
+            <label for="fruit">Fruit Du Démon</label></br>
+            <input id="fruit" class="up_fruit" type="text" placeholder="Gura Gura No Mi" />
+            </br>
+
+            <button type="button" id="update">Modifier le personnage</button>
+
+            <div class="alerte-div"></div>
+
+        </div>
+    </form>
+    <script type="module" src="../../assets/script/liste.js"></script>
+</body>
+
+</html>

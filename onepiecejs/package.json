@@ -1,0 +1,24 @@
+{
+  "name": "onepiecejs",
+  "version": "1.0.0",
+  "description": "Projet JS One Piece",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Karolyne17/onepiecejs.git"
+  },
+  "author": "Caroline Zaouma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karolyne17/onepiecejs/issues"
+  },
+  "homepage": "https://github.com/Karolyne17/onepiecejs#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,241 @@
+body{
+    background-color: #44484e;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+    /* ----------------------------------- */
+    /*               NAVBAR                */
+    /* ----------------------------------- */
+
+#nav-div{
+    background-color: #212325;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    height: 60px;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+#nav-div a{
+    color:white;
+    text-decoration: none;
+    margin:auto;
+    font-size: 1.4rem;
+}
+
+.space-div{
+    height:60px;
+}
+
+
+    /* ----------------------------------- */
+    /*               LISTE                 */
+    /* ----------------------------------- */
+
+.liste-h1{
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+#listContainer{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+}
+
+#perso-section{
+    margin: 50px auto;
+    background-color:#5c6068;
+    padding:10px 0 25px 0;
+    box-shadow: 15px 15px 5px #2c2f33;
+}
+
+#perso-section h2, p{
+    padding-left: 15px;
+}
+
+#perso-section a{
+    padding: 12px;
+    margin: auto;
+    text-decoration: none;
+    color: #2c2f33;
+}
+
+.divImage{
+    min-height: 300px;
+}
+
+#perso-section img{
+    max-width: 450px;
+}
+
+.btnDiv{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.a-details{
+    background-color:rgb(98, 207, 235);
+}
+
+.a-delete{
+    background-color:rgb(190, 111, 127);
+}
+
+.a-update{
+    background-color:rgb(255, 159, 80);
+}
+
+
+    /* ----------------------------------- */
+    /*               FIN LISTE             */
+    /* ----------------------------------- */
+
+    /* ----------------------------------- */
+    /*               ADD - UPDATE          */
+    /* ----------------------------------- */
+
+.add-update-h1{
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+#form_container{
+    width:25%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#form_container input{
+    width:100%;
+    height: 35px;
+    margin: 10px auto 20px auto;
+}
+
+#form_container label{
+    font-size:1.7rem;
+}
+
+#form_container button{
+    padding:15px;
+    font-size: 1.3rem;
+    width: 100%;
+    margin-top: 35px;
+    border: none;
+    color: #44484e;
+    cursor: pointer;
+}
+
+#form_container #add{
+    background-color: rgb(133, 221, 130);
+}
+
+#form_container #update{
+    background-color: rgb(255, 159, 80);
+}
+
+    /* Alertes format */
+
+.alerte-div{
+    background-color: #c92028;
+    margin-top:50px;
+    height: 45px;
+    border-radius: 15px;
+    padding-top: 22.5px;
+    visibility: hidden;
+}
+
+    /* ----------------------------------- */
+    /*           FIN ADD - UPDATE          */
+    /* ----------------------------------- */
+
+    /* ----------------------------------- */
+    /*               DETAILS               */
+    /* ----------------------------------- */ 
+
+.details-h1{
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+#details-section .divImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#details-section img{
+    width: 35%;
+    margin-bottom:50px;
+    box-shadow: 15px 20px 5px #2c2f33;
+}
+
+#details-section p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#details-section .btnDiv{
+    width:40%;
+    margin: 70px auto;
+}
+
+#details-section a{
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: #2c2f33;
+    font-size: 1.5rem;
+}
+
+    /* ----------------------------------- */
+    /*             FIN DETAILS             */
+    /* ----------------------------------- */ 
+
+    /* ----------------------------------- */
+    /*               ACCUEIL               */
+    /* ----------------------------------- */ 
+
+    .accueil-h1{
+        text-align: center;
+        font-size: 2.7rem;
+    }
+
+    #accueil{
+        text-align: center;
+        font-size: 2.3rem;
+    }
+
+    .accueil-btn-container{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 40px auto;
+    }
+
+    .accueil-btn-container a{
+        padding: 12px;
+        margin: auto;
+        text-decoration: none;
+        color: #2c2f33;
+        font-size: 2rem;
+    }
+
+    .a-add{
+        background-color: rgb(133, 221, 130);
+    }
+
+    .a-liste{
+        background-color:rgb(98, 207, 235);
+    }
+
+
+    /* ----------------------------------- */
+    /*            FIN ACCUEIL              */
+    /* ----------------------------------- */ 

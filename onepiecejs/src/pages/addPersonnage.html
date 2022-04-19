@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter Personnage</title>
+    <link rel="stylesheet" href="../assets/style/main.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar"></nav>
+        <h1 class="add-update-h1">Ajouter un personnage</h1>
+    </header>
+
+    <form>
+        <div id="form_container">
+            <label for="image">Lien de l'image</label>
+            <input id="image" class="add_image" type="text" placeholder="http://exemple.com" />
+            </br>
+            <label for="nom">Nom</label>
+            <input id="nom" class="add_nom" type="text" placeholder="Newgate" />
+            </br>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" class="add_prenom" type="text" placeholder="Edward" />
+            </br>
+            <label for="alias">Alias</label>
+            <input id="alias" class="add_alias" type="text" placeholder="Barbe Blanche" />
+            </br>
+            <label for="age">Age</label>
+            <input id="age" class="add_age" type="number" placeholder="72" />
+            </br>
+            <label for="fruit">Fruit Du Démon</label>
+            <input id="fruit" class="add_fruit" type="text" placeholder="Gura Gura No Mi" />
+            </br>
+
+            <button type="button" id="add">Ajouter le personnage</button>
+
+            <div class="alerte-div"></div>
+
+        </div>
+    </form>
+    <script type="module" src="assets/script/liste.js"></script>
+</body>
+
+</html>
